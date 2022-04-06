@@ -17,8 +17,8 @@ provider "okta" {
     base_url = var.base_url
     api_token = var.api_token
 }
-resource "okta_app_saml" "TerraFromTestApplicationCheckPostBuildSteps" {
-  label                    = "TerraFromTestApplicationCheckPostBuildSteps"
+resource "okta_app_saml" "TerraFromTestApplicationCheckfinalUpdate" {
+  label                    = "TerraFromTestApplicationCheckfinalUpdate"
   sso_url                  = "https://example.com"
   recipient                = "https://example.com"
   destination              = "https://example.com"
